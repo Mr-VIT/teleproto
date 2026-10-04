@@ -14,7 +14,8 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "declaration": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "allowImportingTsExtensions":true
   },
   "exclude": [
     "dist",
@@ -22,5 +23,5 @@
     "node_modules",
     "teleproto/tl/generated/api.js"
   ],
-  "include": ["teleproto"]
+  "include": ["teleproto", "_tests"]
 }
